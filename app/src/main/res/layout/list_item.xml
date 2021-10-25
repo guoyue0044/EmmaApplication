@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_list2"
+    android:background="@color/GUCCI_WHEAT"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyList2Activity">
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="20sp"
+        android:textColor="@color/GUCCI_GREEN"/>
+    <TextView
+        android:id="@+id/itemDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textColor="@color/GUCCI_BLUE"
+        android:gravity="end"
+        android:textSize="15sp"/>
+
+</LinearLayout>

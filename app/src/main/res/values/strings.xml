@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EmmaApplication</string>
+    <string name="hello">Happy Birthday!</string>
+    <string name="from">Your Tom</string>
+    <string name="btn_label">Button</string>
+    <string name="hint_txt">Input your name</string>
+    <string name="lable_add1">+1 point</string>
+    <string name="lable_add2">+2 point</string>
+    <string name="lable_add3">+3 point</string>
+    <string name="btn_reset_label">Reset</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="btn_opencfg_label">config</string>
+    <string name="btn_save_label">Save</string>
+    <string name="dollar_rate"> </string>
+    <string name="euro_rate"> </string>
+    <string name="won_rate"> </string>
+    <string name="menu_set_label">Setting</string>
+    <string name="label_open_list">OpenList</string>
+
+
+</resources>

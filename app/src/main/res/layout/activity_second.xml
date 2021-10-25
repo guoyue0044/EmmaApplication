@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_second"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GUCCI_WHEAT"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    tools:context=".SecondActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/GUCCI_GREEN"
+                android:gravity="center"
+                android:text="TeamA"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:textColor="@color/GUCCI_GREEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="65sp" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/lable_add3"
+                android:backgroundTint="@color/GUCCI_GREEN"
+                android:textColor="@color/GUCCI_YELLOW"
+                android:onClick="btnAdd3"/>
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/GUCCI_GREEN"
+                android:textColor="@color/GUCCI_YELLOW"
+                android:text="@string/lable_add2"
+                android:onClick="btnAdd2"/>
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/GUCCI_GREEN"
+                android:textColor="@color/GUCCI_YELLOW"
+                android:text="@string/lable_add1"
+                android:onClick="btnAdd1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/black"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/GUCCI_GREEN"
+                android:gravity="center"
+                android:text="TeamB"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/GUCCI_GREEN"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="65sp" />
+
+            <Button
+                android:id="@+id/btn_3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/lable_add3"
+                android:backgroundTint="@color/GUCCI_GREEN"
+                android:textColor="@color/GUCCI_YELLOW"
+                android:onClick="btnAdd3"/>
+
+            <Button
+                android:id="@+id/btn_2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/GUCCI_GREEN"
+                android:textColor="@color/GUCCI_YELLOW"
+                android:text="@string/lable_add2"
+                android:onClick="btnAdd2"/>
+
+            <Button
+                android:id="@+id/btn_1b"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/GUCCI_GREEN"
+                android:textColor="@color/GUCCI_YELLOW"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/lable_add1"
+                android:onClick="btnAdd1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:onClick="btnReset"
+        android:backgroundTint="@color/GUCCI_GREEN"
+        android:textColor="@color/GUCCI_YELLOW"
+        android:text="@string/btn_reset_label"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
